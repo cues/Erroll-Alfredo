@@ -1,0 +1,104 @@
+@import "app/components/Cover/Cover.scss";
+@import "app/components/Nav/Nav.scss";
+@import "app/components/Footer/Footer.scss";
+@import "app/components/Sketch/Sketch.scss";
+@import "app/components/Adobe/Adobe.scss";
+@import "app/components/Website/Website.scss";
+@import "app/components/Corel/Corel.scss";
+@import "app/components/Contact/Contact.scss";
+
+
+
+
+
+
+
+body{
+  background-color: transparent;
+}
+.bt
+{
+  font-family: 'Bitter', serif;
+}
+.display-flex
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor-pointer
+{
+  cursor: pointer;
+}
+.cursor-default
+{
+  cursor: default;
+}
+.facebook-color
+{
+	color: rgba(59,89,152,1);
+}
+.twitter-color
+{
+	color: rgba(85,172,238,1);
+}
+.youtube-color
+{
+	color: rgba(205,32,31,1);
+}
+.instagram-color
+{
+	color: rgba(63,114,155,1);
+}
+.google-color
+{
+	color: rgba(220,78,65,1);
+}
+.transition-1
+{
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+}
+.transition-2
+{
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+.transition-3
+{
+    -webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+.transition-4
+{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+    //
+    // transform-style: preserve-3d;
+}
+.transition-5
+{
+    -webkit-transition: all .5s ease-in-out;
+       -moz-transition: all .5s ease-in-out;
+         -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+}
+
+.main{
+  min-height: 100vh;
+  width: 100vw;
+   background-image: url('~../img/white.png');
+  -webkit-transform: translateZ(0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: red;
+}

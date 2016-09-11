@@ -1,0 +1,125 @@
+.nav{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  height: 50px;
+  width: 100%;
+  a{
+    color:rgba(23,23,23,.7)
+  }
+}
+
+
+
+.profile-pic
+{
+  width:20%;
+  height: 50px;
+  /*background-color: red;*/
+  float: left;
+  margin-top: 10px;
+  // margin-bottom: 10px;
+  z-index: 101;
+  position: relative;
+}
+.logo
+{
+  right: 0;
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  background-color: white;
+  background-image: url('~../img/erroll.jpg');
+  background-size: 100% 100%;
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,.7);
+  margin-right: -20px;
+  margin-top: -110px;
+  border-radius: 100%;
+}
+
+
+.menu
+{
+  height: 50px;
+
+  float: right;
+  width:80%;
+  box-shadow: 0px 4px 2px 0px rgba(0,0,0,.4);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media(max-width:1050px){
+  .profile-pic
+  {
+    display: none;
+  }
+  .menu
+  {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.menu-items
+{
+
+  margin-left: 5px;
+  margin-right: 5px;
+
+  // background-color: red;
+  flex: 1;
+  display: flex;
+  height: 100%;
+  font-size: 17px;
+}
+.icon-sketch, .icon-websites, .icon-wireframes, .icon-corel, .more
+{
+  font-size: 35px;
+
+  // background-color: blue;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-adobe
+{
+  font-size: 27px;
+  // background-color: blue;
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1px
+  // margin-top: -7px;
+}
+
+.icon-sketch, .icon-websites
+{
+  font-weight: bold !important;
+}
+.icon-sketch
+{
+  padding-top: 7px;
+
+}
+.icon-websites
+{
+  padding-top: 10px;
+  font-size: 40px
+}
+@media(max-width:600px){
+  .menu
+  {
+    height: 45px;
+  }
+  .icon-sketch, .icon-websites, .icon-wireframes, .icon-corel
+  {
+    font-size: 30px;
+  }
+  .icon-adobe
+  {
+    font-size: 23px;
+  }
+}
