@@ -39,9 +39,9 @@ ReactDOM.render(
   <Router history={hashHistory}>
 
     <Route path="/" component={Main}>
-        <IndexRoute component={Sketch}/>
+        <IndexRoute component={Website}/>
         <Route path="adobe" component={Adobe}/>
-        <Route path="website" component={Website}/>
+        <Route path="sketch" component={Sketch}/>
         <Route path="corel" component={Corel}/>
     </Route>
 

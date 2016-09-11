@@ -12,8 +12,14 @@ var Nav = React.createClass({
 
           <div className="menu-items display-flex">
             <IndexLink to="/" activeClassName="active" activeStyle={{color:'rgba(0,0,0,1)'}}>
-              <span className="icon-sketch cursor-pointer"></span>
+              <span className="icon-website cursor-pointer"></span>
             </IndexLink>
+          </div>
+
+          <div className="menu-items display-flex">
+            <Link to="/sketch" activeClassName="active" activeStyle={{color:'rgba(0,0,0,1)'}}>
+              <span className="icon-sketch cursor-pointer"></span>
+            </Link>
           </div>
 
           <div className="menu-items display-flex">
@@ -22,14 +28,10 @@ var Nav = React.createClass({
             </Link>
           </div>
 
-          <div className="menu-items display-flex">
-            <Link to="/website" activeClassName="active" activeStyle={{color:'rgba(0,0,0,1)'}}>
-              <span className="icon-websites cursor-pointer"></span>
-            </Link>
-          </div>
+
 
           <div className="menu-items display-flex">
-            <i   className=" material-icons cursor-pointer more" >more_vert</i>
+            <i  className=" material-icons cursor-pointer more" >more_vert</i>
 
           </div>
 

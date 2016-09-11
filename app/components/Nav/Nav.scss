@@ -71,7 +71,7 @@
   height: 100%;
   font-size: 17px;
 }
-.icon-sketch, .icon-websites, .icon-wireframes, .icon-corel, .more
+.icon-sketch, .icon-website, .icon-wireframes, .icon-corel, .more
 {
   font-size: 35px;
 
@@ -81,6 +81,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.more
+{
+  font-size: 33px;
+  color:rgba(23,23,23,.7)
+  
+
+}
+.icon-website
+{
+  font-size: 32px;
 }
 .icon-adobe
 {
